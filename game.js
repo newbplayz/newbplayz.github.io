@@ -33,6 +33,11 @@ $(document).on("pagecreate","#secondgame",function(event){
 
 var start = document.getElementById("starting");
 var score = 0;
+var reload = document.getElementById('reload');
+
+reload.addEventListener('click', function() {
+  location.reload();
+});
 
 start.addEventListener('click', function() {
     var intro = prompt("who lives in a pineapple under the sea?");

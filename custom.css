@@ -1,0 +1,93 @@
+h3 {
+color:#f90000;
+text-align:center;
+font-family:"Press Start 2P";
+}
+
+p {
+color:#002af9;
+text-align:center;
+font-family:"Press Start 2P";
+}
+
+#spongebob {
+width:100px;
+height:100px;
+}
+
+#killing {
+width:100px;
+margin:0 auto;
+}
+
+img {
+width:100px;
+height:100px;
+}
+
+.img-div {
+text-align: center;
+}
+
+#squidward {
+width:100px;
+height:100px;
+}
+
+div {
+text-align:center;
+}
+
+h4 {
+color:red;
+font-family:"Press Start 2P";
+}
+
+.row {
+  border: 1px solid green;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.holes {
+  width: 20%;
+  height: 100px;
+  background: black;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.squidward {
+  width: 100%;
+  position: relative;
+  top: 100%;
+}
+
+.spongebob {
+  width: 100%;
+  position: relative;
+  top: 100%;
+}
+.animate-squidward {
+  animation-name: popup;
+  animation-duration: 1s; 
+  animation-iteration-count: infinite;
+}
+
+.animate-spongebob {
+  animation-name: popup;
+  animation-duration: 1s; 
+  animation-iteration-count: infinite;
+}
+@keyframes popup {
+  50% {
+    top: 0%;
+  }
+}
+
+
+
+

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+ <head>    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" type="text/css" href="custom.css"/>
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+<script src="game.js"></script>
+ </head>
+   <body>
+
+     <div data-role="page" id="mainScreen" data-theme="b">
+
+	<div data-role="header">
+		<h1>Killing Game</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<p>Welcome to my new Game.</p>
+		<div class="img-div">
+		<img id="killing" src="http://www.geocities.ws/ffe_cecil/One_Bullet.gif">
+		</div>
+		<div data-role="controlgroup">
+	<a href="#gameScreen" data-role="button" data-transition="flow">Squidward killing</a>
+	<a href="#secondgame" data-role="button" data-transition="flip">Spongebob quiz</a>
+	<a href="#thirdgame" data-role="button" data-transition="slidefade">Patrick killing</a>
+</div>		
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>by Newb Playz</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<!-- squidward killing -->
+<div data-role="page" id="gameScreen" data-theme="b">
+
+	<div data-role="header">
+		<h2>Welcome to Squidward killing</h2>
+		<a href="#mainScreen" class="ui-btn-left">Home</a>
+	</div><!-- /header -->
+
+	<div data-role="content">
+	<h1>Instructions</h1>	
+		<p>Use your knife and kill the Loser Noser mr Squidward....</p>
+		<img id="Squidward" src="https://media.tenor.co/images/be7373dadb4230fbd85248beee9b107f/tenor.gif">
+		<h4>Now thats Squidward</h4>
+    <h1>Score: <span id="zierero">0</span> </h1>
+    <button id="reset">Reset</button>
+
+
+    <div class="row">
+        <div class="holes">
+            <img class="squidward animate-squidward" src="https://vignette4.wikia.nocookie.net/spongebob/images/8/86/Squidward-Dance.gif/revision/latest?cb=20141223174811">
+         </div>
+        <div class="holes">
+            <img class="spongebob animate-spongebob" src="http://i1149.photobucket.com/albums/o599/supawadee27/myavatar170024711.gif">
+        </div>
+        <div class="holes">
+            <img class="squidward animate-squidward" src="https://vignette4.wikia.nocookie.net/spongebob/images/8/86/Squidward-Dance.gif/revision/latest?cb=20141223174811">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="holes">
+        	<img class="spongebob animate-spongebob" src="http://i1149.photobucket.com/albums/o599/supawadee27/myavatar170024711.gif">
+        </div>
+        <div class="holes">
+            <img class="squidward animate-squidward" src="https://vignette4.wikia.nocookie.net/spongebob/images/8/86/Squidward-Dance.gif/revision/latest?cb=20141223174811">
+        </div>
+        <div class="holes">
+            <img class="squidward animate-squidward" src="https://vignette4.wikia.nocookie.net/spongebob/images/8/86/Squidward-Dance.gif/revision/latest?cb=20141223174811">
+         </div>
+    </div>
+
+    <div class="row">
+        <div class="holes">
+        	<img class="spongebob animate-spongebob" src="http://i1149.photobucket.com/albums/o599/supawadee27/myavatar170024711.gif">
+       </div>
+        <div class="holes">
+        	<img class="squidward animate-squidward" src="https://vignette4.wikia.nocookie.net/spongebob/images/8/86/Squidward-Dance.gif/revision/latest?cb=20141223174811">
+        </div>
+        <div class="holes">
+        	<img class="spongebob animate-spongebob" src="http://i1149.photobucket.com/albums/o599/supawadee27/myavatar170024711.gif">
+        </div>
+    </div>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Squidward killing</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+
+
+<!-- SPONGEBOB KILLING -->
+<div data-role="page" id="secondgame" data-theme="b">
+
+	<div data-role="header">
+		<h1>Welcome to Spongebob killing</h1>
+		<a href="#mainScreen" class="ui-btn-left">Home</a>
+	</div><!-- /header -->
+
+	<div data-role="content">
+	   <h1>Instructions</h1>	
+		<p>can you do the quiz?.
+		</p>
+		<img id="spongebob" src="http://i1149.photobucket.com/albums/o599/supawadee27/myavatar170024711.gif">		
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Spongebob Killing</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="thirdgame" data-theme="b">
+
+	<div data-role="header">
+		<h1>Welcome to Patrick killing</h1>
+		<a href="#mainScreen" class="ui-btn-left">Home</a>
+	</div><!-- /header -->
+
+	<div data-role="content">
+	  <h1>Instructions</h1>	
+		<p>Use your M9 to kill the Mind-less Patrick.</p>
+		<img src="http://cdn.smosh.com/sites/default/files/ftpuploads/bloguploads/0614/surprised-patrick-loop.gif">		
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Patrick Killing</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+
+
+
+
+
+
+    </body>
+</html>

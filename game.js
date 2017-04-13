@@ -32,47 +32,48 @@ $('.spongebob').on('click', function() {
 $(document).on("pagecreate","#secondgame",function(event){
 
 var start = document.getElementById("starting");
+var score = 0;
 
 start.addEventListener('click', function() {
     var intro = prompt("who lives in a pineapple under the sea?");
 
     if (intro === "spongebob squarepants") {
         alert("correct");
-              score = score + 1;
+        score = score + 1;
       alert('your score is now ' + score);
     } else if (intro === "sea cucumber") {
         alert("close");
     } else {
         alert("wrong");
-              score = score - 1;
-      alert ('your score is now ' + score);
+         score = score - 1;
+      	  alert ('your score is now ' + score);
     }
 
     var q1 = prompt(" what does food taste like?")
 
     if (q1 === "sand") {
         alert("correct");
-              score = score + 1;
+         score = score + 1;
       alert('your score is now ' + score);
     } else if (q1 === "floor") {
         alert("close");
     } else {
         alert("wrong");
-              score = score - 1;
-      alert ('your score is now ' + score);
+        	 score = score - 1;
+      	  alert ('your score is now ' + score);
     }
 
     var q2 = prompt("what is a head made of?")
 
     if (q2 === "stone") {
         alert("correct");
-              score = score + 1;
+         score = score + 1;
       alert('your score is now ' + score);
     } else if (q2 === "rock") {
         alert("sooooo close");
     } else {
         alert("wrong");
-              score = score - 1;
+         score = score - 1;
       alert ('your score is now ' + score);
     }
 
@@ -80,7 +81,7 @@ start.addEventListener('click', function() {
 
     if (q3 === "yes") {
         alert("correct");
-              score = score + 1;
+         score = score + 1;
       alert('your score is now ' + score);
     } else if (q3 === "maybe") {
         alert("nuuuuuuh");
@@ -131,6 +132,8 @@ start.addEventListener('click', function() {
               score = score - 1;
       alert ('your score is now ' + score);
     }
+
+    alert('your final score is ' + score);
 });
 
-});//closing bracket for killing squidward game
+});//closing bracket for quiz game
